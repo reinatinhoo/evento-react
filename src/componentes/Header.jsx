@@ -1,5 +1,6 @@
 // cabeçalho
 import { Link } from "react-router-dom";
+import "../Css/Header.css";
 
 function Header() {
   return (

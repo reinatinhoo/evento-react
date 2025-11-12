@@ -3,14 +3,14 @@ import Header from "./componentes/Header";
 import Footer from "./componentes/Footer";
 import Home from "./paginas/Home";
 import Sobre from "./paginas/Sobre";
-import "./styles.css";
+import "./Css/Style.css";
 
 
 function App() {
   return (
     <Router>
       <div className="app">
-        <Header />
+        <Header /> 
 
 
         {/* Menu de navegação */}

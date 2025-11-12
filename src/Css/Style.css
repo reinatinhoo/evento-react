@@ -1,0 +1,37 @@
+/* Aplica configurações básicas a toda a página */
+* {
+    margin: 0;              /* Remove margens padrão do navegador */
+    padding: 0;             /* Remove espaçamentos padrão */
+    box-sizing: border-box; /* Mantém largura total incluindo bordas e preenchimentos */
+  }
+  
+  /* Define as cores, fonte e alinhamento geral */
+  body {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    background-color: #9c84ad; /* Fundo cinza-claro */
+    color: #0f0a0a;               /* Cor principal do texto */
+    text-align: center;        /* Centraliza textos genéricos */
+    min-height: 100vh;         /* Garante altura mínima de tela cheia */
+  }
+
+  .app {
+    display: flex;             /* Usa flexbox para organização vertical */
+    flex-direction: column;    /* Elementos empilhados (de cima para baixo) */
+    align-items: center;       /* Centraliza os itens na horizontal */
+    padding-bottom: 80px;      /* Espaço reservado para o rodapé fixo */
+  }
+
+  .menu-principal {
+    margin-top: 10px;
+  }
+  
+  .menu-principal a {
+    color: #5c7788;           /* Azul escuro para links */
+    text-decoration: none;    /* Remove o sublinhado */
+    margin: 0 10px;           /* Espaçamento lateral */
+    font-weight: 500;         /* Leve destaque */
+  }
+  
+  .menu-principal a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+  }

@@ -1,10 +1,11 @@
+import "../Css/Footer.css";
 function Footer() {
   // Função que retorna o ano atual
   const ano = new Date().getFullYear();
 
   return (
     <footer>
-      <p> Arthur Sangiogo- {ano} </p>
+      <p> Renato Cristova {ano} </p>
     </footer>
   );
 }

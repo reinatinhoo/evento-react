@@ -1,5 +1,5 @@
 import Evento from "../componentes/Evento";
-
+import "../Css/Home.css";
 function Home() {
   return (
     <main>
@@ -8,8 +8,8 @@ function Home() {
 
       {/*Exibindo os eventos*/}
       <Evento nome="Mundo Senai" data="05/11/2025" local="Auditório" />
-      <Evento nome="Jogo da Chape" data="11/10/2025" local="Arena Condá" />
-      <Evento nome="Enem" data="09/11/2025" local="Unoesc" />
+      <Evento nome="EX" data="45145865" local="NAO SEI" />
+     
     </main>
   );
 }
