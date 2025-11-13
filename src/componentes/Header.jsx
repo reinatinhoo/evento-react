@@ -2,11 +2,7 @@
 import { Link } from "react-router-dom";
 
 import "../Css/Header.css";
-=======
-import "../styles/header.css";
-
-
-function Header()
+function Header(){
   return (
     <header>
       <h2> Sistema de Eventos SENAI</h2>

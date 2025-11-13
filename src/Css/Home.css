@@ -1,5 +1,14 @@
-main{
+.Home{
     
-    background-color: white;
+    background-color: rgb(92, 155, 228);
     border-radius: 15px;
+    margin-top:37px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+.Home:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
 }
+
+
+    

@@ -6,32 +6,30 @@
   }
   
   /* Define as cores, fonte e alinhamento geral */
-  body {
-    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-    background-color: #9c84ad; /* Fundo cinza-claro */
-    color: #0f0a0a;               /* Cor principal do texto */
-    text-align: center;        /* Centraliza textos genéricos */
-    min-height: 100vh;         /* Garante altura mínima de tela cheia */
-  }
-
+ 
   .app {
     display: flex;             /* Usa flexbox para organização vertical */
     flex-direction: column;    /* Elementos empilhados (de cima para baixo) */
     align-items: center;       /* Centraliza os itens na horizontal */
     padding-bottom: 80px;      /* Espaço reservado para o rodapé fixo */
+    background-color: #9c84ad;
   }
 
-  .menu-principal {
-    margin-top: 10px;
+  .main {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
-  
-  .menu-principal a {
-    color: #5c7788;           /* Azul escuro para links */
-    text-decoration: none;    /* Remove o sublinhado */
-    margin: 0 10px;           /* Espaçamento lateral */
-    font-weight: 500;         /* Leve destaque */
-  }
-  
-  .menu-principal a:hover {
-    text-decoration: underline; /* Sublinha ao passar o mouse */
-  }
+
+
+.main:hover{
+    transform: translateY(-10px);
+}
+footer {
+  background-color:#911fa0;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  letter-spacing: 0.2px;
+  align-items: center;
+
+}

@@ -7,3 +7,9 @@ header {
     font-weight: bold;                  /* Texto em negrito */
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Sombra abaixo do cabeçalho */
   } 
+
+  header a {
+    text-decoration: none;
+    
+  }
+

@@ -3,11 +3,10 @@ import Header from "./componentes/Header";
 import Footer from "./componentes/Footer";
 import Home from "./paginas/Home";
 import Sobre from "./paginas/Sobre";
-<<<<<<< HEAD
+
 import "./Css/Style.css";
-=======
-import "./styles/styles.css";
->>>>>>> b9b036949baedaacbae60168707ff6f44ac44517
+
+
 
 
 function App() {

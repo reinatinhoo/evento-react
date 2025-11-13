@@ -1,0 +1,27 @@
+/* Estilização para a Box de Cada Evento */
+.Evento {
+    /* Aparência da Box */
+    background-color: #5d91e8; /* Cor de fundo azul para a caixa */
+    color: white; /* Cor do texto */
+    padding: 15px 20px; /* Espaçamento interno */
+    margin: 15px 0; /* Espaço externo, separando as boxes verticalmente */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra para dar profundidade */
+    width: 80%; /* Largura da caixa (ajuste conforme o layout desejado) */
+    max-width: 400px; /* Largura máxima (opcional) */
+}
+
+/* Estilização para o Título */
+.Evento h3 {
+    margin-top: 0;
+    font-size: 1.3em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Linha divisória suave */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilização para os Parágrafos de Detalhe */
+.Evento p {
+    margin: 3px 0;
+    font-size: 0.95em;
+}

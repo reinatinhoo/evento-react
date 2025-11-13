@@ -1,7 +1,7 @@
 
 import "../Css/Sobre.css";
 
-import "../styles/sobre.css";
+
 
 function Sobre() {
   return (
