@@ -5,17 +5,18 @@ function Home() {
   return (
     
       <div className = "Home">
-      <h1>Bem vindo ao Gerenciador de Eventos</h1>
-      <p> Aqui você fica por dentro dos eventos.</p>
+      <h1>Agenda de Eventos SENAI</h1>
+      <p>Todos | Palestras | Workshops | Cursos</p>
+    
 
       {/*Exibindo os eventos*/}
       <Evento nome="Mundo Senai" data="05/11/2025" local="Auditório" />
 
-      <Evento nome="EX" data="45145865" local="NAO SEI" />
+      <Evento nome="Oficina" data="05/12/2025" local="SISU" />
      
 
-      <Evento nome="Jogo da Chape" data="26/11/2025" local="Arena Condá" />
-      <Evento nome="Enem" data="16/11/2025" local="Unoesc" />
+      <Evento nome="Palestra" data="26/11/2025" local="SENAI CHAPECÓ" />
+      <Evento nome="Palestra" data="16/11/2025" local="SENAI CHAPECÓ" />
       </div>
 
     

@@ -1,14 +1,43 @@
 .Home{
     
-    background-color: rgb(92, 155, 228);
+    background-color: rgb(17, 89, 172);
     border-radius: 15px;
     margin-top:37px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Duas colunas de tamanho igual */
+    gap: 32px; /* Espaço entre as caixas (linhas e colunas) */
+    padding:50px;
   }
-.Home:hover{
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+   .Home h1{
+    margin-top: -12px;
+   }
+  .Evento {
+    /* Aparência da Box */
+    background-color: #0c1a31; /* Cor de fundo azul para a caixa */
+    color: #ccc; font-size: 0.9em; /* Cor do texto */
+    padding: 15px; /* Espaçamento interno */
+    margin: 15px 0; /* Espaço externo, separando as boxes verticalmente */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra para dar profundidade */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-left:85px;
+    display:block;
+    border-left: 5px solid #FFC107;
+    width: auto; /* O Grid define a largura */
+    max-width: none; /* O Grid define a largura */
+    margin: 0; /* Remove margens manuais */
+    display: block; /* Remove o inline-block desnecessário */
+  }
+
+.Evento:hover {
+  transform: translateY(-5px); /* Move o elemento 5px para cima */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-
+@media (max-width: 768px) {
+  .grid-eventos {
+      grid-template-columns: 1fr; /* Uma coluna em telas menores */
+  }
+}
     
