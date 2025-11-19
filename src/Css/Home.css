@@ -25,9 +25,9 @@
     display:block;
     border-left: 5px solid #FFC107;
     width: auto; /* O Grid define a largura */
-    max-width: none; /* O Grid define a largura */
+    max-width: none; 
     margin: 0; /* Remove margens manuais */
-    display: block; /* Remove o inline-block desnecessário */
+    display: block; 
   }
 
 .Evento:hover {

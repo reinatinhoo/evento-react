@@ -12,7 +12,7 @@
     flex-direction: column;    /* Elementos empilhados (de cima para baixo) */
     align-items: center;       /* Centraliza os itens na horizontal */
     padding-bottom: 80px;      /* Espaço reservado para o rodapé fixo */
-    background-color: #9c84ad;
+    background-color: #799ddf;
   }
 
   .main {
@@ -24,7 +24,7 @@
     transform: translateY(-10px);
 }
 footer {
-  background-color:#911fa0;
+  background-color:#284dc9;
   padding: 10px;
   position: fixed;
   width: 100%;
@@ -33,3 +33,4 @@ footer {
   align-items: center;
 
 }
+
